@@ -1,11 +1,16 @@
-# matchingApplication
+# MatchingApp
 
-환경 구성
+# 환경
+JDK 17
 
-JAVA 17
-MySQL(H2)
-SPRING BOOT 3.1.3
+MySql
+
+SPRING BOOT 3.1.3 (Gradle)
+
 JPA
+
 Spring Security
+
 Git
-Gradle
+
+Thymeleaf
