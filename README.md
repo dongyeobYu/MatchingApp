@@ -14,5 +14,3 @@ Spring Security
 Git
 
 Thymeleaf
-
-pull test
