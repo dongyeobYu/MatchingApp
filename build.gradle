@@ -35,7 +35,6 @@ subprojects {
     dependencies {
         implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
         implementation 'org.springframework.boot:spring-boot-starter-mail'
-        implementation 'org.springframework.boot:spring-boot-starter-security'
         implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
         implementation 'org.springframework.boot:spring-boot-starter-websocket'
         implementation 'org.thymeleaf.extras:thymeleaf-extras-springsecurity6'
@@ -67,6 +66,7 @@ project(':matchingTown-api-server') {
     dependencies {
         implementation project(':matchingTown-core')
         implementation 'org.springframework.boot:spring-boot-starter-web'
+        implementation 'org.springframework.boot:spring-boot-starter-security'
     }
 }
 
