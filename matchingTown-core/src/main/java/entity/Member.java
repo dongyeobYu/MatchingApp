@@ -8,7 +8,6 @@ import lombok.ToString;
 
 @Entity
 @Getter
-@Setter
 @ToString
 public class Member {
 
