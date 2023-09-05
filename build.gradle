@@ -75,6 +75,15 @@ project(':matchingTown-batch') {
     jar { enabled = false }
 
     dependencies {
-        implementation project (':matchingTown-core')
+        implementation project(':matchingTown-core')
     }
 }
+
+    project(':matchingTown-api-chat') {
+        bootJar { enabled = true }
+        jar { enabled = false }
+
+        dependencies {
+            implementation project(':matchingTown-core')
+        }
+    }
