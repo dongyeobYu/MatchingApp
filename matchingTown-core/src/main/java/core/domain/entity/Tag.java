@@ -1,4 +1,4 @@
-package core.entity;
+package core.domain.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

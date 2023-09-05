@@ -1,6 +1,6 @@
-package core.dto;
+package core.domain.dto;
 
-import core.entity.Member;
+import core.domain.entity.Member;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;

@@ -1,6 +1,6 @@
 package core.service;
 
-import core.entity.Member;
+import core.domain.entity.Member;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import core.repository.MemberRepository;
