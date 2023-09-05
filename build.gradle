@@ -60,7 +60,7 @@ project(':matchingTown-core') {
     }
 }
 
-project(':matchingTown-api-server') {
+project(':matchingTown-api') {
     bootJar { enabled = true }
     jar { enabled = false }
 

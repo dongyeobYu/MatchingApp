@@ -1,5 +1,5 @@
 rootProject.name = 'MatchingTown'
-include 'matchingTown-api-server'
 include 'matchingTown-batch'
 include 'matchingTown-core'
+include 'matchingTown-api'
 include 'matchingTown-api-chat'
