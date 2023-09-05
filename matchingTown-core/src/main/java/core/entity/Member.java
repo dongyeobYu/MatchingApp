@@ -1,12 +1,14 @@
-package entity;
+package core.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.ToString;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 @Entity
 @Getter
 @ToString
+@EntityScan
 @Table(name = "MEMBER")
 public class Member {
 

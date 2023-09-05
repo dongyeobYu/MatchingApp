@@ -1,10 +1,9 @@
-package service;
+package core.service;
 
-import dto.MemberDto;
-import entity.Member;
+import core.entity.Member;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import repository.MemberRepository;
+import core.repository.MemberRepository;
 
 @Service
 @RequiredArgsConstructor

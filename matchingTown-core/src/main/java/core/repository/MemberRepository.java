@@ -1,7 +1,6 @@
-package repository;
+package core.repository;
 
-import dto.MemberDto;
-import entity.Member;
+import core.entity.Member;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
@@ -9,8 +8,6 @@ import java.util.List;
 
 @Repository
 public interface MemberRepository extends JpaRepository<Member, Long> {
-
-    List<Member> findMemberByNameList(String name);
 
     Member findMemberByName(String name);
 }

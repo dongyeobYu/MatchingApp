@@ -1,4 +1,4 @@
-package config;
+package core.config;
 
 import jakarta.servlet.DispatcherType;
 import org.springframework.context.annotation.Bean;

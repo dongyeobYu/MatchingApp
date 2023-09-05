@@ -1,6 +1,6 @@
-package dto;
+package core.dto;
 
-import entity.Member;
+import core.entity.Member;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
