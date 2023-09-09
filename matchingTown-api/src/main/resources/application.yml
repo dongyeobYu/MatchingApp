@@ -1,0 +1,27 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:h2:tcp://localhost/~/matchingTown
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+#      naming:
+#        physical-strategy: core.util.TablePostfixPhysicalNamingStrategy      # 테이블 전략 -> 명명 규칙 커스텀 파일
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: true          # System.out 으로 출력 ( 성능 저하 ) -> log 로 변경 해야함
+
+  logging:
+    level:
+      org:
+        hibernate:
+          sql: debug
+          type: trace
