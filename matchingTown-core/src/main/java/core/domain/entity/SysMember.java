@@ -2,6 +2,8 @@ package core.domain.entity;
 
 import jakarta.persistence.*;
 
+import static jakarta.persistence.FetchType.*;
+
 @Entity
 @Table(name = "SYS_MEMBER")
 public class SysMember {
@@ -13,6 +15,6 @@ public class SysMember {
      *  TODO : Add Column
      * */
 
-    @OneToOne(mappedBy = "sysMember")
+    @OneToOne(mappedBy = "sysMember", fetch = LAZY)
     private Member member;
 }

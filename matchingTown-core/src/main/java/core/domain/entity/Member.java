@@ -5,6 +5,8 @@ import lombok.Getter;
 import lombok.ToString;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 
+import static jakarta.persistence.FetchType.*;
+
 @Entity
 @Getter
 @ToString
@@ -27,11 +29,11 @@ public class Member {
     @Column(name = "MAIL_ADDR")
     private String mailAddr;
 
-    @OneToOne
+    @OneToOne(fetch = LAZY)
     @JoinColumn(name = "TAG_ID")
     private Tag Tag;
 
-    @OneToOne
+    @OneToOne(fetch = LAZY)
     @JoinColumn(name = "SYS_MEMBER_ID")
     private SysMember sysMember;
 
